@@ -1,0 +1,106 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #ccccff;
+}
+a{
+	color: #06F;
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+	width:0px;
+	height:0px;
+	display:none;
+}
+#content{
+	width:1024px;
+	height:768px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../img/time.jpg);
+}
+#title{
+	width:180px;
+	height:40px;
+	position:relative;
+	text-align:center;
+	top:125px;
+	left:100px;
+}
+#title h1{
+	font-size:38px;
+	color:#96C;
+}
+#time a{
+	color:#C30;
+}
+#time{
+	width:100px;
+	height:30px;
+	position:relative;
+	text-align:center;
+	font-size:28px;
+	left:628px;
+	top:110px;
+}
+#today{
+	width:120px;
+	height:30px;
+	position:relative;
+	text-align:center;
+	font-size:28px;
+	left:175px;
+	top:270px;
+}
+#search{
+	width:120px;
+	height:30px;
+	position:relative;
+	text-align:center;
+	font-size:28px;
+	left:855px;
+	top:155px;
+}
+#week{
+	width:120px;
+	height:30px;
+	position:relative;
+	text-align:center;
+	font-size:28px;
+	left:825px;
+	top:258px;
+}
+#table{
+	width:404px;
+	height:450px;
+	position:relative;
+	left:324px;
+	top:51px;
+	text-align:center;
+}
+#table td{
+	padding:5px 0px 5px 0px;
+	margin:0px;
+}
+#table th{
+	padding:10px 0px 10px 0px;
+}
+#table tr{
+	background-color:#993;
+}
+#table .tr_0{
+	background-color:#C4D7FF;
+}
+#table .tr_1{
+	background-color:#E8E8E8;
+}
+#table .tr_2{
+	background-color:#DCFCF5;
+}
+#table tr:hover{
+	background-color:#9CF;
+}

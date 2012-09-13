@@ -1,0 +1,15 @@
+/* CSS Document */
+body{
+	background-color: #ccccff;
+	text-align:center;
+}
+h2{
+	color:#36F;
+	padding-top:30px;
+}
+form{
+	padding:5px;
+}
+select{
+	padding:3px;
+}

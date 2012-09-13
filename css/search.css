@@ -1,0 +1,108 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #ccccff;
+}
+a{
+	color: #06F;
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+	width:0px;
+	height:0px;
+	display:none;
+}
+#content{
+	width:1024px;
+	height:768px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../img/search.jpg);
+}
+#title{
+	width:200px;
+	height:40px;
+	position:relative;
+	text-align:center;
+	top:83px;
+	left:730px;
+}
+#title h1{
+	font-size:38px;
+	color:#96C;
+}
+#search ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+#search li {
+	margin:0px;
+	padding:1px;
+	height:27px;
+	width:220px;
+}
+#search{
+	width:237px;
+	height:198px;
+	position:relative;
+	top:2px;
+	left:43px;
+}
+#submit{
+	height:20px;
+	position:relative;
+	top:-42px;
+	left:245px;
+}
+
+#submit button{
+	background-color:#FFF;
+	border:2px solid #FFF;
+	font-size:18px;
+	text-align:center;
+}
+
+#info{
+	height:80px;
+	width:570px;
+	position:relative;
+	top:-75px;
+	left:395px;
+}
+#info span{
+	color:#990;
+	font-size:16px;
+	font-weight: bold;
+}
+#info .left{
+	float:left;
+	color:#F00;
+}
+#info .right{
+	float:right;
+	margin-left:10px;
+}
+#info .link li{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #09F;
+	padding-top:5px;
+}
+#info ul{
+	padding:1px;
+	list-style-type:none;
+}
+#table{
+	width:750px;
+	height:435px;
+	text-align:center;
+	position:relative;
+	top:-48px;
+	left:231px;
+	overflow:scroll;
+}
