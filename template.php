@@ -49,4 +49,3 @@ function long_list_to_short($s){
 	if($start<$next)$n.="-".$next;
 	return $n;
 }
-?>

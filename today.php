@@ -71,4 +71,4 @@ if(isset($c->today['-1'])){
 <input name="date" value="<?php echo date("Ymd",$system->info['now']+24*60*60)?>"><button type="submit">查看</button>
 </form>
 
-<?php get_footer();?>
+<?php get_footer();

@@ -41,4 +41,3 @@ if($v['id']==-1 || $v['id']%4==0)echo "<tr><td colspan=\"3\"></td></tr>";
 
 <?php
 get_footer();
-?>
